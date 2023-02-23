@@ -13,9 +13,12 @@ body {
     display: flex;
     padding: 15px 0px;
 }
-
+.space{
+    margin-top: 33px;
+}
 .left-width {
     width: 10%;
+    padding-left: 20px;
 }
 
 .left-width img {
@@ -110,11 +113,18 @@ body {
 
 .right-info-width {
     width: 60%;
+    position: relative;
 }
 
 .right-info-width img {
     width: 100%;
-    padding-top: 135px;
+    padding-top: 109px;
+}
+.owner{
+    position: absolute;
+    top: -205px;
+    left: 127px;
+
 }
 
 .main-section {
